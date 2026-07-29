@@ -21,15 +21,15 @@
 
 Выполните:
 ```
-git clone ; cd text-noise-generator; chmod +x text-noise-generator.py; sudo cp text-noise-generator.py /bin/tng
+git clone https://github.com/Philin-Lemo/Text-noise-generator-Python-.git; cd text-noise-generator; chmod +x text-noise-generator.py; sudo cp text-noise-generator.py /bin/tng
 ```
 или же через pip:
 ```
-git clone ; cd text-noise-generator; sudo pip install .
+git clone https://github.com/Philin-Lemo/Text-noise-generator-Python-.git; cd text-noise-generator; sudo pip install .
 ```
 если выдаёт ошибку "error: externally-managed-environment", то используйте(на свой страх и риск):
 ```
-git clone ; cd text-noise-generator; sudo pip install . --break-system-packages
+git clone https://github.com/Philin-Lemo/Text-noise-generator-Python-.git; cd text-noise-generator; sudo pip install . --break-system-packages
 ```
 Если захотите установить локально, то измените в команде установки путь с /bin/tng на ~/.local/bin
 
@@ -54,7 +54,7 @@ brew install git python termcolor nuitka ordered-set zstandard
 ```
 #### Компиляция и утановка
 ```
-git clone ; cd text-noise-generator; nuitka text-noise-generator.py; sudo cp text-noise-generator.bin /bin/tng
+git clone https://github.com/Philin-Lemo/Text-noise-generator-Python-.git; cd text-noise-generator; nuitka text-noise-generator.py; sudo cp text-noise-generator.bin /bin/tng
 ```
 
 Если захотите установить локально, то измените в команде установки путь с /bin/tng на ~/.local/bin
@@ -65,11 +65,11 @@ git clone ; cd text-noise-generator; nuitka text-noise-generator.py; sudo cp tex
 
 Только через pip:
 ```
-git clone ; cd text-noise-generator; pip install .
+git clone https://github.com/Philin-Lemo/Text-noise-generator-Python-.git; cd text-noise-generator; pip install .
 ```
 если выдаёт ошибку "error: externally-managed-environment", то используйте(на свой страх и риск):
 ```
-git clone ; cd text-noise-generator; pip install . --break-system-packages
+git clone https://github.com/Philin-Lemo/Text-noise-generator-Python-.git; cd text-noise-generator; pip install . --break-system-packages
 ```
 или же без git :
 - Скачайте исходный код вручную
