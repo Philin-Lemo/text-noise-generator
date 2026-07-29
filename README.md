@@ -23,8 +23,9 @@ tng -a ru
 <img width="1280" height="720" alt="tng -a ru" src="https://github.com/user-attachments/assets/f4d67e5e-67cc-4edf-a62c-c66ca97bcb14" />
 
 ```
-tng --text-color light_magenta
+tng --text-color light_blue
 ```
+цвет в vhs исказился
 <img width="1280" height="720" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/8003abc4-50a9-4f90-9502-178892850ef3" />
 
 ```
