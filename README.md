@@ -1,5 +1,6 @@
 # Text noise generator
 This project is a Python code for generating pseudo-random text, inspired by the Library of Babel.
+
 (The preview and settings examples were made in vhs, so the blue color is distorted and the "typing" speed is increased)
 
 Preview:
