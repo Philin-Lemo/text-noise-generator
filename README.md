@@ -5,7 +5,7 @@ This project is a Python code for generating pseudo-random text, inspired by the
 
 Preview:
 
-<img width="854" height="480" alt="tng(new)" src="https://github.com/user-attachments/assets/6d7c24d6-4b0c-425e-8823-876b3dc94f39" />
+<img width="854" height="480" alt="tng" src="https://github.com/user-attachments/assets/9ef037fc-a674-42d0-abf2-b6d5358af8e5" />
 
 ### Generation settings:
 
@@ -26,17 +26,17 @@ Preview:
 ```
 tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
-<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM(new)" src="https://github.com/user-attachments/assets/9797d244-c0a4-4c35-b306-02a6f26039fb" />
+<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM" src="https://github.com/user-attachments/assets/597461c8-2eb4-4b0c-9e6b-c29b17c4add4" />
 
 ```
 tng --text-color light_blue
 ```
-<img width="854" height="480" alt="tng --text-color light_blue(new)" src="https://github.com/user-attachments/assets/3b84411d-eaea-4fdb-8b1e-cb31749ddd25" />
+<img width="854" height="480" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/98f955d3-0cf0-4a37-8362-c65ca4f0163e" />
 
 ```
 tng -t 0.025
 ```
-<img width="854" height="480" alt="tng -t 0 025(new)" src="https://github.com/user-attachments/assets/92618b11-f244-4206-8afe-42b953e6ed17" />
+<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/user-attachments/assets/3fcf9b17-900d-47a7-8d94-8bdf32193874" />
 
 ### Installing the Python script on Unix (Linux, BSD, MacOS) systems (globally):
 
