@@ -3,7 +3,7 @@ This project is a Python code for generating pseudo-random text, inspired by the
 
 Preview:
 
-<img width="854" height="480" alt="tng" src="https://github.com/user-attachments/assets/9ef037fc-a674-42d0-abf2-b6d5358af8e5" />
+<img width="854" height="480" alt="tng" src="https://github.com/user-attachments/assets/b909627f-07f8-4a0c-8412-3593fd33618f" />
 
 ### Generation settings:
 
