@@ -1,5 +1,7 @@
 # Text noise generator 
 Данный проект — это код на Python по генерации псевдослучайного текста, вдохновлённый Вавилонской библиотекой.
+(превью и примеры настроек сделаны в vhs, поэтому синий цвет исказился и скорость "печатания" увеличена)
+
 ### Превью :
 <img width="1280" height="720" alt="tng" src="https://github.com/user-attachments/assets/dc3b865b-4b8e-4b7d-9137-737c82dbf4d4" />
 
@@ -25,7 +27,6 @@ tng -a ru
 ```
 tng --text-color light_blue
 ```
-цвет в vhs исказился
 <img width="1280" height="720" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/8003abc4-50a9-4f90-9502-178892850ef3" />
 
 ```
