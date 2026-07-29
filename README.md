@@ -2,6 +2,7 @@
 Данный проект — это код на Python по генерации псевдослучайного текста, вдохновлённый Вавилонской библиотекой.
 ### Превью :
 <img width="1280" height="720" alt="tng" src="https://github.com/user-attachments/assets/dc3b865b-4b8e-4b7d-9137-737c82dbf4d4" />
+
 ### Настройка генерации:
 - --help (-h) - Помощь
 - --sleep-time (-t) - Time between printing characters (default: 0.05)
@@ -14,6 +15,7 @@
 - --filling-commas (-c) - Frequency of commas (default: 3)
 - --filling-question (-q) - Frequency of question marks (default: 1)
 - --filling-exclamation-marks - Frequency of exclamation marks (default: 1)
+
 ### Пример настройки:
 ```
 tng -a ru
@@ -21,7 +23,7 @@ tng -a ru
 <img width="1280" height="720" alt="tng -a ru" src="https://github.com/user-attachments/assets/f4d67e5e-67cc-4edf-a62c-c66ca97bcb14" />
 
 ```
-tng --text-color
+tng --text-color light_magenta
 ```
 <img width="1280" height="720" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/8003abc4-50a9-4f90-9502-178892850ef3" />
 
