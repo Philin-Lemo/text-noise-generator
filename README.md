@@ -1,8 +1,6 @@
 # Text noise generator
 This project is a Python code for generating pseudo-random text, inspired by the Library of Babel.
 
-(The preview and settings examples were made in vhs, so the blue color is distorted and the "typing" speed is increased)
-
 Preview:
 
 <img width="854" height="480" alt="tng" src="https://github.com/user-attachments/assets/9ef037fc-a674-42d0-abf2-b6d5358af8e5" />
@@ -31,12 +29,13 @@ tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
 tng --text-color light_blue
 ```
+(The preview and settings examples were made in vhs, so the blue color is increased)
 <img width="854" height="480" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/98f955d3-0cf0-4a37-8362-c65ca4f0163e" />
 
 ```
 tng -t 0.025
 ```
-<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/user-attachments/assets/3fcf9b17-900d-47a7-8d94-8bdf32193874" />
+<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/user-attachments/assets/353515dc-2c2e-466e-a4d7-f9a84c06ba17" />
 
 ### Installing the Python script on Unix (Linux, BSD, MacOS) systems (globally):
 
