@@ -5,6 +5,7 @@ Preview:
 
 <img width="854" height="480" alt="tng" src="https://github.com/user-attachments/assets/b909627f-07f8-4a0c-8412-3593fd33618f" />
 
+---
 ### Generation settings:
 
 - --help (-h) - Help
@@ -19,6 +20,7 @@ Preview:
 - --filling-question (-q) - Frequency of question marks (default: 1)
 - --filling-exclamation-marks - Frequency of exclamation marks (default: 1)
 
+---
 ### Configuration example:
 
 ```
@@ -37,17 +39,19 @@ tng -t 0.025
 ```
 <img width="854" height="480" alt="tng -t 0 025" src="https://github.com/user-attachments/assets/353515dc-2c2e-466e-a4d7-f9a84c06ba17" />
 
+---
 ### Installing the Python script on Unix (Linux, BSD, MacOS) systems (globally):
 
 · Git is required
 
-Run:
+#### Run:
 
 ```
 git clone https://github.com/Philin-Lemo/text-noise-generator.git; cd text-noise-generator; chmod +x text-noise-generator.py; sudo cp text-noise-generator.py /bin/tng
 ```
+If you want to install locally, change the path in the installation command from /bin/tng to ~/.local/bin
 
-or via pip:
+#### Installing via pip:
 
 ```
 git clone https://github.com/Philin-Lemo/text-noise-generator.git; cd text-noise-generator; sudo pip install .
@@ -59,8 +63,7 @@ if you get the error "error: externally-managed-environment", then use (at your 
 git clone https://github.com/Philin-Lemo/text-noise-generator.git; cd text-noise-generator; sudo pip install . --break-system-packages
 ```
 
-If you want to install locally, change the path in the installation command from /bin/tng to ~/.local/bin
-
+---
 ### Installing with compilation on Unix (Linux, BSD, MacOS) systems via Nuitka (globally):
 
 #### Installing dependencies:
@@ -86,7 +89,6 @@ sudo pkg install git python311 py311-nuitka
 · MacOs:
 
 ```
-xcode-select --install
 brew install git python termcolor nuitka ordered-set zstandard
 ```
 
@@ -98,6 +100,7 @@ git clone https://github.com/Philin-Lemo/text-noise-generator.git; cd text-noise
 
 If you want to install locally, change the path in the installation command from /bin/tng to ~/.local/bin
 
+---
 ### Installing the Python script on Windows  (globally):
 
 · Git is required
@@ -113,18 +116,6 @@ if you get the error "error: externally-managed-environment", then use (at your 
 
 ```
 git clone https://github.com/Philin-Lemo/text-noise-generator.git; cd text-noise-generator; pip install . --break-system-packages
-```
-
-or without git:
-
-· Download the source code manually
-· Unzip if necessary
-· Move the folder to C:/
-· Run the console as administrator
-· Type:
-
-```
-cd text-noise-generator; pip install .
 ```
 
 if you get the error "error: externally-managed-environment", then use (at your own risk):
