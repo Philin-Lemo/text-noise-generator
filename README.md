@@ -1,10 +1,10 @@
 # Text noise generator 
 Данный проект — это код на Python по генерации псевдослучайного текста, вдохновлённый Вавилонской библиотекой.
 ### Превью :
-
+<img width="1280" height="720" alt="tng" src="https://github.com/user-attachments/assets/dc3b865b-4b8e-4b7d-9137-737c82dbf4d4" />
 ### Настройка генерации:
 - --help (-h) - Помощь
-- --sleep-time (-s) - Time between printing characters (default: 0.05)
+- --sleep-time (-t) - Time between printing characters (default: 0.05)
 - --max-len (-max) - Maximum word length (default: 12)
 - --min-len (-min) - Minimum word length (default: 3)
 - --alphabet (-a) - Alphabet used (en/ru or a string of custom characters) (default: en)
@@ -15,6 +15,22 @@
 - --filling-question (-q) - Frequency of question marks (default: 1)
 - --filling-exclamation-marks - Frequency of exclamation marks (default: 1)
 ### Пример настройки:
+```
+tng -a ru
+```
+<img width="1280" height="720" alt="tng -a ru" src="https://github.com/user-attachments/assets/f4d67e5e-67cc-4edf-a62c-c66ca97bcb14" />
+
+```
+tng --text-color
+```
+<img width="1280" height="720" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/8003abc4-50a9-4f90-9502-178892850ef3" />
+
+```
+tng -t 0.025
+```
+<img width="1280" height="720" alt="tng -t 0 025" src="https://github.com/user-attachments/assets/b0e05b7b-ffa9-48db-94d1-efa688cc55aa" />
+
+
 
 ### Установка Python скрипта на Unix(Linux, BSD, MacOS) системы (глобально):
 - Необходим git
