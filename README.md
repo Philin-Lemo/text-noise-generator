@@ -39,7 +39,7 @@ tng --text-color light_blue
 tng -t 0.025
 ```
 
-<img width="1280" height="720" alt="tng -t 0 025" src="https://github.com/user-attachments/assets/b0e05b7b-ffa9-48db-94d1-efa688cc55aa" />
+
 
 ### Installing the Python script on Unix (Linux, BSD, MacOS) systems (globally):
 
