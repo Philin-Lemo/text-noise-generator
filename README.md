@@ -4,8 +4,8 @@ This project is a Python code for generating pseudo-random text, inspired by the
 (The preview and settings examples were made in vhs, so the blue color is distorted and the "typing" speed is increased)
 
 Preview:
-<img width="854" height="480" alt="tng" src="https://github.com/user-attachments/assets/18fafb64-403c-4c4e-a2c5-05976864030e" />
 
+<img width="854" height="480" alt="tng(new)" src="https://github.com/user-attachments/assets/6d7c24d6-4b0c-425e-8823-876b3dc94f39" />
 
 ### Generation settings:
 
@@ -26,18 +26,17 @@ Preview:
 ```
 tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
-<img width="1280" height="720" alt="tng -a ru" src="https://github.com/user-attachments/assets/fa12c0ed-0e09-45f5-96b1-68514e74e461" />
+<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM(new)" src="https://github.com/user-attachments/assets/9797d244-c0a4-4c35-b306-02a6f26039fb" />
 
 ```
 tng --text-color light_blue
 ```
-<img width="1280" height="720" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/40067bfc-7c16-4dc3-ba64-b70a5b71d740" />
+<img width="854" height="480" alt="tng --text-color light_blue(new)" src="https://github.com/user-attachments/assets/3b84411d-eaea-4fdb-8b1e-cb31749ddd25" />
 
 ```
 tng -t 0.025
 ```
-<img width="1280" height="720" alt="tng -t 0 025" src="https://github.com/user-attachments/assets/8ac07900-015e-464f-9aa8-d7665bb541f4" />
-
+<img width="854" height="480" alt="tng -t 0 025(new)" src="https://github.com/user-attachments/assets/92618b11-f244-4206-8afe-42b953e6ed17" />
 
 ### Installing the Python script on Unix (Linux, BSD, MacOS) systems (globally):
 
