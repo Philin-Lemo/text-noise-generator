@@ -19,7 +19,6 @@ parser.add_argument("-p", "--filling-points", help = "Frequency of periods (defa
 parser.add_argument("-c", "--filling-commas", help = "Frequency of commas (default: 3)", type = int, default = 3)
 parser.add_argument("-q", "--filling-question", help = "Frequency of question marks (default: 1)", type = int, default = 1)
 parser.add_argument("-e", "--filling-exclamation-marks", help = "Frequency of exclamation marks (default: 1)", type = int, default = 1)
-parser.add_argument("-s", "--spaces-after-punctuation-marks", help = "Spaces after punctuation marks (default: True)(if started with -s or an unabridged argument, then False)", action="store_false", default = True)
 
 args = parser.parse_args()
 
@@ -33,39 +32,24 @@ filling_points = args.filling_points
 filling_commas = args.filling_commas
 filling_question = args.filling_question
 filling_exclamation_marks = args.filling_exclamation_marks
-spaces_after_punctuation_marks = args.spaces_after_punctuation_marks
 
 if alphabet == "ru" :
     alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
-
-if spaces_after_punctuation_marks == True :
-    spaces_after_punctuation_marks = " "
-if spaces_after_punctuation_marks == False :
-    spaces_after_punctuation_marks = ""
-
-
-#if spaces_after_punctuation_marks == "True" :
-#    spaces_after_punctuation_marks = " "
-#elif spaces_after_punctuation_marks == "False" :
-#    spaces_after_punctuation_marks = ""
-#else:
-#    print(f"invalid bool value: '{spaces_after_punctuation_marks}'")
-#    exit()
 
 for i in range(filling_void) :
     marks_table.append(" ")
 
 for i in range(filling_points) :
-    marks_table.append("." + spaces_after_punctuation_marks)
+    marks_table.append(". ")
 
 for i in range(filling_commas) :
-    marks_table.append("," + spaces_after_punctuation_marks) 
+    marks_table.append(", ")
 
 for i in range(filling_question) :
-    marks_table.append("?" + spaces_after_punctuation_marks)
+    marks_table.append("? ")
 
 for i in range(filling_exclamation_marks) :
-    marks_table.append("!" + spaces_after_punctuation_marks)
+    marks_table.append("! ")
 
 def main(stdscr) :
     curses.start_color()
