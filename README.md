@@ -19,6 +19,7 @@ Preview:
 - --filling-commas (-c) - Frequency of commas (default: 3)
 - --filling-question (-q) - Frequency of question marks (default: 1)
 - --filling-exclamation-marks - Frequency of exclamation marks (default: 1)
+- --spaces-after-punctuation-marks (-s) - Spaces after punctuation marks (default: True)(if started with -s or an unabridged argument, then False)
 
 ---
 ### Configuration example:
