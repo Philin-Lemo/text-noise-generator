@@ -7,7 +7,6 @@ Preview:
 
 ---
 ### Generation settings:
-
 - --help (-h) - Help
 - --sleep-time (-t) - Time between printing characters (default: 0.05)
 - --max-len (-max) - Maximum word length (default: 12)
