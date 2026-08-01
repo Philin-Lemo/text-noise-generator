@@ -43,15 +43,6 @@ if spaces_after_punctuation_marks == True :
 if spaces_after_punctuation_marks == False :
     spaces_after_punctuation_marks = ""
 
-
-#if spaces_after_punctuation_marks == "True" :
-#    spaces_after_punctuation_marks = " "
-#elif spaces_after_punctuation_marks == "False" :
-#    spaces_after_punctuation_marks = ""
-#else:
-#    print(f"invalid bool value: '{spaces_after_punctuation_marks}'")
-#    exit()
-
 for i in range(filling_void) :
     marks_table.append(" ")
 
