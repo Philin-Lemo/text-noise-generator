@@ -31,7 +31,6 @@ tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
 tng --text-color light_blue
 ```
-(The preview and settings examples were made in vhs, so the blue color is increased)
 <img width="854" height="480" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/98f955d3-0cf0-4a37-8362-c65ca4f0163e" />
 
 ```
