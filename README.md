@@ -3,7 +3,7 @@ This project is a Python code for generating pseudo-random text, inspired by the
 
 Preview:
 
-https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng.gif
+<img width="854" height="480" alt="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng.gif" />
 
 ---
 ### Generation settings:
@@ -27,17 +27,18 @@ https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng.gif
 ```
 tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
-https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCBNM.gif
+<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCBNM.gif
+" /> 
 
 ```
 tng --text-color light_blue
 ```
-
+<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20--text-color%20light_blue.tape" />
 
 ```
 tng -t 0.025
 ```
-<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/user-attachments/assets/353515dc-2c2e-466e-a4d7-f9a84c06ba17" />
+<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-t%200.025.gif" />
 
 ---
 ### Installing the Python script on Unix (Linux, BSD, MacOS) systems (globally):
