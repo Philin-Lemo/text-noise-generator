@@ -2,7 +2,7 @@
 This project is a Python code for generating pseudo-random text, inspired by the Library of Babel.
 
 Preview:
-
+<img width="854" height="480" alt="tng" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng.gif" />
 
 ---
 ### Generation settings:
@@ -26,8 +26,7 @@ Preview:
 ```
 tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
-<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCBNM.gif
-" /> 
+<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCBNM.gif" /> 
 
 ```
 tng --text-color light_blue
