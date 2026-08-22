@@ -3,7 +3,7 @@ This project is a Python code for generating pseudo-random text, inspired by the
 
 Preview:
 
-<img width="854" height="480" alt="tng" src="https://github.com/user-attachments/assets/b909627f-07f8-4a0c-8412-3593fd33618f" />
+https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng.gif
 
 ---
 ### Generation settings:
@@ -27,12 +27,12 @@ Preview:
 ```
 tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
-<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM" src="https://github.com/user-attachments/assets/597461c8-2eb4-4b0c-9e6b-c29b17c4add4" />
+https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCBNM.gif
 
 ```
 tng --text-color light_blue
 ```
-<img width="854" height="480" alt="tng --text-color light_blue" src="https://github.com/user-attachments/assets/98f955d3-0cf0-4a37-8362-c65ca4f0163e" />
+
 
 ```
 tng -t 0.025
