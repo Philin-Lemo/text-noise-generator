@@ -19,6 +19,7 @@ Preview:
 - --filling-question (-q) - Frequency of question marks (default: 1)
 - --filling-exclamation-marks - Frequency of exclamation marks (default: 1)
 - --spaces-after-punctuation-marks (-s) - Spaces after punctuation marks (default: True)(if started with -s or an unabridged argument, then False)
+- --cursor - Cursor type (default: 1)(0 - none, 1 - thin, 2 - wide)
 
 ---
 ### Configuration example:
