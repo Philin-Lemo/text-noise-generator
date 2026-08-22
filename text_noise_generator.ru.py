@@ -14,18 +14,18 @@ colors = {"black": "\u001b[30m", "red": "\u001b[31m", "green": "\u001b[32m", "ye
 parser = argparse.ArgumentParser()
 #Считывание аргументов
 #(сокращение, полный аргумент ,для help ,тип ,стандартное значение)
-parser.add_argument("-t", "--sleep-time", help = "Time between printing characters (default: 0.05)", type = float, default = 0.05)
-parser.add_argument("--max-len", help = "Maximum word length (default: 12)", type = int, default = 12)
-parser.add_argument("--min-len", help = "Minimum word length (default: 3)", type = int, default = 3)
-parser.add_argument("-a", "--alphabet", help = "Alphabet used (en/ru or a string of custom characters) (default: en)", type = str, default = "abcdefghijklmnopqrstuvwxyz")
-parser.add_argument("--text-color", help = "Text color (default: white)", type = str, default = "white")
-parser.add_argument("-v", "--filling-void", help = "Frequency of spaces (default: 12)", type = int, default = 12)
-parser.add_argument("-p", "--filling-points", help = "Frequency of periods (default: 5)", type = int, default = 5)
-parser.add_argument("-c", "--filling-commas", help = "Frequency of commas (default: 3)", type = int, default = 3)
-parser.add_argument("-q", "--filling-question", help = "Frequency of question marks (default: 1)", type = int, default = 1)
-parser.add_argument("-e", "--filling-exclamation-marks", help = "Frequency of exclamation marks (default: 1)", type = int, default = 1)
-parser.add_argument("-s", "--spaces-after-punctuation-marks", help = "Spaces after punctuation marks (default: True)(if started with -s or an unabridged argument, then False)", action="store_false", default = True)
-parser.add_argument("--cursor", help = "Тип курсора (default: 1)(0 - нет, 1 - тонкий, 2 - широкий)", type=int, default = 1)
+parser.add_argument("-t", "--sleep-time", help = "Время между выводом символов (по умолчанию: 0.05)", type = float, default = 0.05)
+parser.add_argument("--max-len", help = "Максимальная длина слова (по умолчанию: 12)", type = int, default = 12)
+parser.add_argument("--min-len", help = "Минимальная длина слова (по умолчанию: 3)", type = int, default = 3)
+parser.add_argument("-a", "--alphabet", help = "Используемый алфавит (en/ru или строка пользовательских символов) (по умолчанию: en)", type = str, default = "abcdefghijklmnopqrstuvwxyz")
+parser.add_argument("--text-color", help = "Цвет текста (по умолчанию: white)", type = str, default = "white")
+parser.add_argument("-v", "--filling-void", help = "Частота пробелов (по умолчанию: 12)", type = int, default = 12)
+parser.add_argument("-p", "--filling-points", help = "Частота точек (по умолчанию: 5)", type = int, default = 5)
+parser.add_argument("-c", "--filling-commas", help = "Частота запятых (по умолчанию: 3)", type = int, default = 3)
+parser.add_argument("-q", "--filling-question", help = "Частота вопросительных знаков (по умолчанию: 1)", type = int, default = 1)
+parser.add_argument("-e", "--filling-exclamation-marks", help = "Частота восклицательных знаков (по умолчанию: 1)", type = int, default = 1)
+parser.add_argument("-s", "--spaces-after-punctuation-marks", help = "Пробелы после знаков препинания (по умолчанию: True)(если указано с -s или полным аргументом, то False)", action="store_false", default = True)
+parser.add_argument("--cursor", help = "Тип курсора (по умолчанию: 1)(0 - нет, 1 - тонкий, 2 - широкий)", type=int, default = 1)
 #Строка для сокращения привязки аргумента к переменной
 args = parser.parse_args()
 
@@ -76,7 +76,7 @@ def main(stdscr) :
     curses.start_color()
     curses.use_default_colors()
     screen = curses.initscr() 
-    #Изсенение вида курсора
+    #Изменение вида курсора
     curses.curs_set(cursor)
 
     #Выводим текстовый шум
