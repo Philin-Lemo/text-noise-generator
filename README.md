@@ -2,7 +2,7 @@
 This project is a Python code for generating pseudo-random text, inspired by the Library of Babel.
 
 Preview:
-<img width="854" height="480" alt="tng" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng.gif" />
+<img width="854" height="480" alt="tng" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng(vhs).gif" />
 
 ---
 ### Generation settings:
@@ -28,17 +28,17 @@ Preview:
 ```
 tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
-<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCVBNM.gif" /> 
+<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCVBNM(vhs).gif" /> 
 
 ```
 tng --text-color light_blue
 ```
-<img width="854" height="480" alt="tng --text-color light_blue" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20--text-color%20light_blue.gif" />
+<img width="854" height="480" alt="tng --text-color light_blue" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20--text-color%20light_blue(vhs).gif" />
 
 ```
 tng -t 0.025
 ```
-<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-t%200.025.gif" />
+<img width="854" height="480" alt="tng -t 0 025" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-t%200.025(vhs).gif" />
 
 ---
 ### Installing the Python script on Unix (Linux, BSD, MacOS) systems (globally):
