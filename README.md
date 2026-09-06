@@ -16,7 +16,7 @@ Preview:
 - --filling-points (-p) - Frequency of periods (default: 5)
 - --filling-commas (-c) - Frequency of commas (default: 3)
 - --filling-question (-q) - Frequency of question marks (default: 1)
-- --filling-exclamation-marks - Frequency of exclamation marks (default: 1)
+- --filling-exclamation-marks (-e) - Frequency of exclamation marks (default: 1)
 - --spaces-after-punctuation-marks (-s) - Spaces after punctuation marks (default: True)
 - --cursor - Cursor type (default: 1)(0 - none, 1 - thin, 2 - wide)
 - --save-into-file (-f) - Allows to generate text immediately in a txt file
