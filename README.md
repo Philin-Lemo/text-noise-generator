@@ -17,8 +17,10 @@ Preview:
 - --filling-commas (-c) - Frequency of commas (default: 3)
 - --filling-question (-q) - Frequency of question marks (default: 1)
 - --filling-exclamation-marks - Frequency of exclamation marks (default: 1)
-- --spaces-after-punctuation-marks (-s) - Spaces after punctuation marks (default: True)(if started with -s or an unabridged argument, then False)
+- --spaces-after-punctuation-marks (-s) - Spaces after punctuation marks (default: True)
 - --cursor - Cursor type (default: 1)(0 - none, 1 - thin, 2 - wide)
+- --save-into-file (-f) - Allows to generate text immediately in a txt file
+- --write-capital-letters (-l) - Сapitalize letters after dots, questions, and exclamation marks (default: True)
 
 ---
 ### Configuration example:
@@ -26,7 +28,7 @@ Preview:
 ```
 tng -a QWERTYUIOPASDFGHJKLZXCBNM
 ```
-<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCBNM.gif" /> 
+<img width="854" height="480" alt="tng -a QWERTYUIOPASDFGHJKLZXCBNM" src="https://github.com/Philin-Lemo/text-noise-generator/blob/main/gifs/tng%20-a%20QWERTYUIOPASDFGHJKLZXCVBNM.gif" /> 
 
 ```
 tng --text-color light_blue
