@@ -84,6 +84,7 @@ def main(stdscr) :
     #Checking the path for writing text to a file
     if save_into_file != "" :
         with open(save_into_file, "a", encoding="utf-8") as file :
+            #"try" - to prevent an error from appearing after stopping the program
             try :
                 while True :
                     #Creating a word with length in the range from "min_len" to "max_len"
