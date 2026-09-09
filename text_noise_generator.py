@@ -56,7 +56,7 @@ if spaces_after_punctuation_marks == True :
 if spaces_after_punctuation_marks == False :
     spaces_after_punctuation_marks = ""
 
-#These 4 "for" loops are for configuring the frequency of punctuation marks
+#These 5 "for" loops are for configuring the frequency of punctuation marks
 for i in range(filling_void) :
     marks_table.append(" ")
 for i in range(filling_points) :
