@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-noise-generator"
+version = "0.0.5"
+dependencies = [
+    'windows-curses; sys_platform == "win32"',
+]
+
+[project.scripts]
+tng = "text_noise_generator.text_noise_generator:main"
+
+[tool.setuptools]
+packages = ["text_noise_generator"]
