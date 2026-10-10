@@ -121,7 +121,6 @@ spaces = args.spaces
 cursor = args.cursor
 save_into_file = args.save_into_file
 write_capital_letters = args.write_capital_letters
-
 marks_table = []
 
 def generator():
@@ -144,6 +143,7 @@ def generator():
         "light_cyan": "\u001b[96m",
         "light_white": "\u001b[97m",
     }
+
     global marks_table
     while True:
         # Creating a word with length in the range from "min_len" to "max_len"
